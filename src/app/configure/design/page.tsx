@@ -1,3 +1,4 @@
+"use client"
 import { notFound } from 'next/navigation';
 import React from 'react';
 import { db } from '@/db';
@@ -23,10 +24,9 @@ const Design = async({searchParams}:PageProps) => {
     return notFound()
   }
   const {imageUrl,width,height}= configuration;
-  // console.log(id);
-  
-  return <></>
-  // <DesignConfigurator configId={``} imageUrl={``}/>
+  return (
+    <div></div>
+  )
 }
 
 export default Design;
