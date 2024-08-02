@@ -1,17 +1,17 @@
-import React from 'react'
+// import React from 'react'
 
 
-interface DesignConfiguratorProps{
-    configId:string,
-    imageUrl:string,
-    // imageDimensions: {width:number; height:number}
-}
-const DesignConfigurator = ({configId,imageUrl}:DesignConfiguratorProps) => {
-  return (
-    <div>
+// interface DesignConfiguratorProps{
+//     configId:string,
+//     imageUrl:string,
+//     imageDimensions: {width:number; height:number}
+// }
+// const DesignConfigurator = ({configId,imageUrl,imageDimensions}:DesignConfiguratorProps) => {
+//   return (
+//     <div>
       
-    </div>
-  )
-}
+//     </div>
+//   )
+// }
 
-export default DesignConfigurator;
+// export default DesignConfigurator;

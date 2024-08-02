@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import React from 'react';
 import { db } from '@/db';
-import DesignConfigurator from './DesignConfigurator';
+// import DesignConfigurator from './DesignConfigurator';
 
 
 interface PageProps{
@@ -25,7 +25,8 @@ const Design = async({searchParams}:PageProps) => {
   const {imageUrl,width,height}= configuration;
   // console.log(id);
   
-  return <DesignConfigurator configId={``} imageUrl={``}/>
+  return <></>
+  // <DesignConfigurator configId={``} imageUrl={``}/>
 }
 
 export default Design;
