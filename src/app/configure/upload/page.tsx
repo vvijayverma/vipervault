@@ -105,13 +105,13 @@ const Page = () => {
                   Drop file<span> to upload</span>
                 </p>
               ) : (
-                <p className="font-semibold">
+                <p className="font-semibold cursor-pointer">
                   Click to upload
-                  <span className="text-blue-400"> or drag and drop</span>
+                  <span className="text-blue-400 cursor-pointer"> or drag and drop</span>
                 </p>
               )}
               </div>
-              {isPending ? null : <p className="text-xs text-zinc-500">PNG,JPG,JPEG</p>}
+              {isPending ? null : <p className="text-xs text-zinc-500 cursor-pointer">PNG,JPG,JPEG</p>}
             </div>      
           )}
         </Dropzone>
