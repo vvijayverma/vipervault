@@ -25,7 +25,7 @@ const Navbar =async () => {
           <div className="h-full flex items-center space-x-4">
             {user ? (
               <>
-                <Link
+                {/* <Link
                   href="/api/auth/logout"
                   className={buttonVariants({
                     size: "sm",
@@ -38,7 +38,7 @@ const Navbar =async () => {
                     size: "sm",
                     variant: "ghost",
                   })}
-                >Dashboard</Link>:null}
+                >Dashboard</Link>:null} */}
                 <Link
                   href="/configure/upload"
                   className={buttonVariants({
@@ -51,7 +51,7 @@ const Navbar =async () => {
               </>
             ) : (
                 <>
-                <Link
+                {/* <Link
                   href="/api/auth/register"
                   className={buttonVariants({
                     size: "sm",
@@ -67,7 +67,7 @@ const Navbar =async () => {
                 >Login
                 <ArrowRight className="ml-1.5 h-5 w-5"/>
                 </Link>
-                <div className="h-8 w-px bg-zinc-200 hidden sm:block"/>
+                <div className="h-8 w-px bg-zinc-200 hidden sm:block"/> */}
                 <Link
                   href="/configure/upload"
                   className={buttonVariants({
